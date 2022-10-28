@@ -7,7 +7,7 @@ import java.util.UUID;
 
 public class UserResponseTestData {
 
-    public static UserResponse userResponse(){
+    public static UserResponse userResponse() {
         return UserResponse.builder()
                 .id(UUID.randomUUID())
                 .name("Augusto")

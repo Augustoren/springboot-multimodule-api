@@ -18,7 +18,7 @@ class CreateUserFlowTest {
     private final CreateUserFlow useCase = new CreateUserFlow(repository, validator);
 
     @Test
-    void CreateUserSuccessfully(){
+    void CreateUserSuccessfully() {
         var userRequest = UserTestData.validUserRequest();
         BDDMockito.given(repository.saveUser(any())).willReturn(UserResponseTestData.userResponse());
 
@@ -28,7 +28,7 @@ class CreateUserFlowTest {
     }
 
     @Test
-    void CreateUserValidationError(){
+    void CreateUserValidationError() {
         var userRequest = UserTestData.validUserRequest();
         BDDMockito.given(repository.saveUser(any())).willReturn(UserResponseTestData.userResponse());
 

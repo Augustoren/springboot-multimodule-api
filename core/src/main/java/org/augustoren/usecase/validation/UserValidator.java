@@ -1,7 +1,6 @@
 package org.augustoren.usecase.validation;
 
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.augustoren.exception.ErrorField;
 import org.augustoren.exception.ValidationException;

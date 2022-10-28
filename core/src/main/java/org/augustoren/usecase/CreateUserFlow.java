@@ -1,7 +1,6 @@
 package org.augustoren.usecase;
 
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.augustoren.model.User;
 import org.augustoren.model.response.UserResponse;
 import org.augustoren.port.command.CreateUserCommand;
